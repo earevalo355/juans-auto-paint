@@ -1,0 +1,73 @@
+	.nav-item {
+		font-weight: bold;
+		display: block;
+	}
+
+	.nav-item a:hover{
+		border-bottom: 3px solid #401d18;
+	}
+
+	.nav-item-active {
+		font-weight: bold;
+		border-bottom: 3px solid #401d18;
+		display: block;
+	}
+	.container h1{
+		font-size: 10vh;
+		color: #515254;
+	}
+	.navbar {
+		background-color: #fa6a57;
+	}
+
+	.navbar-nav {
+		font-size: 2.5vh;
+	}
+
+	.container-fluid .shape {
+		max-width: 15vh;
+		max-height: 15vh;
+	}
+
+	.container-fluid .def-car {
+		min-width: 20vh;
+	}
+
+	#paint{
+		display: flex;
+		justify-content: center;
+	}
+	div .card{
+		background-color: #f4f4f4;
+	}
+
+	li .nav-link {
+		color: #000000;
+	}
+
+	.nav-item .nav-link {
+		color: #ffffff;
+	}
+
+	.card-header {
+		background-color: #fc4503;
+		color: #ffffff;
+	}
+
+	.card-body {
+		background-color: #c9c9c9;
+	}
+
+	@media only screen and (max-width: 786px) {
+	#paint {
+	    flex-direction: column-reverse;
+	}
+}
+
+	@media only screen and (min-width: 787px) {
+	.col-lg-4{
+		margin-top: 93px;
+	}
+}
+
+	
