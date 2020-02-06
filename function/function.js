@@ -41,10 +41,10 @@ function Clear(){
 
 function addPaintJob(e){
 	e.preventDefault();
-	let plate_number = escape(document.getElementById('plateNumber').value);
-	let message = escape(document.getElementById('message'));
-	let current_color = escape(document.getElementById('currentColorSelect').value);
-	let target_color = escape(document.getElementById('targetColorSelect').value);
+	let plate_number = document.getElementById('plateNumber').value;
+	let message = document.getElementById('message');
+	let current_color = document.getElementById('currentColorSelect').value;
+	let target_color = document.getElementById('targetColorSelect').value;
 	let completed = "0";
 
 	if (plate_number == "") {
